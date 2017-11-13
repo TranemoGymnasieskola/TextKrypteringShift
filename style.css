@@ -1,0 +1,51 @@
+#bg {
+}
+
+ body {
+    position: fixed;
+  top:  0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
+    /* The image used */
+    background-image: url("images/encryption.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  font-family: Courier New;
+  background-color: #42A5F5;
+  max-width: 400px;
+  margin: auto;
+} 
+
+div {
+    height: 200px;
+    width: 400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    color: #FFFFFF;
+}
+
+label {
+ display: inline-block;
+ padding-right: 10px;
+}
+input[type="submit"] {
+
+}
+
+body, html {
+    height: 100%;
+}
+
